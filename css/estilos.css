@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: montserrat, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #E8E8E8;
+}
+.contenedor{
+    width: 1200px;
+    background-color: #f8f7f7;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* aquí comienza el header */
+header{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #00000010;
+    border-radius: 0 0 5px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.menu{
+    margin-left: 125px;
+    margin-right: 100px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.botonmenu{
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+a{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: montserrat, sans-serif;
+}
+a:hover{
+    opacity: 60%;
+    transition: 0.3s;
+}
+.logo{
+    display: block;
+    margin-left: 397px;
+    margin-right:0px;
+    padding-bottom: 5px;
+}
+h1{
+    text-align: center;
+    font-family: anton, sans-serif;
+    font-size: 80px;
+    font-weight:lighter;
+    letter-spacing: 2.5px;
+    color: #6EC4EA;
+    padding-bottom: 10px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #414141;
+}
+/* aquí comienza la mera tos, mi main */
+h2{
+    font-family:anton, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 0.7px;
+    margin-top: 120px;
+    margin-left: 95px;
+}
+p{
+    margin-top: 2px;
+    margin-left: 95px;
+    margin-right: 135px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+hr{
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 135px;
+    margin-bottom: 35px;
+    height: 0.7px;
+    background-color: #c1c1c198;
+}
+.galeria{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.proyectos{
+    margin: -2.5px;
+
+}
+/* aquí edito branding 01 */
+p.parrafo{
+    font-size: 16px;
+    color: #aaa8a8;
+}
+img.branding01{
+    display: block;
+    width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a.volver{
+    display: block;
+    color: #6EC4EA;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+/* aquí trabajo parte sobre mí */
+article.sobre{
+    display: block;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.mifoto{
+    display: block;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: -100px;
+}
+h2.sobre{
+    font-size: 70px;
+    color: #6EC4EA;
+    margin-left: 340px;
+}
+p.sobre{
+    border-top: 2.5px solid #6EC4EA;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    margin-bottom:20px;
+}
+p.sobre2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-kerning: 5px;
+    padding-bottom: 20px;
+    border-bottom: 2.5px solid #6EC4EA;
+    margin-bottom: 60px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: #888181;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    box-shadow: 0px 0px 6px #97979710;
+    border-radius: 5px 5px 0 0;
+}
+/* finalmente aquí edito redes */
+div.redes{
+    width: 70px;
+    height: 210px;
+    background-color: white;
+    position: fixed;
+    top: 130px;
+    left: 0px;
+    border-radius: 0 15px 15px 0;
+}
+li{
+    list-style: none;
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 10px;
+}
